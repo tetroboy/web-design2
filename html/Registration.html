@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>Registration</title>
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <link rel="stylesheet" href="../css/registration_style.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    </head>
+    
+    <body class="back-img">
+        <header>
+            <ul class="nav">
+                <li><a href="#" class="current">Реєстрація</a></li>
+                <li><a href="WebApp.html">Телефонний довідник</a></li>
+                <li><a href="sign in.html">Увійти</a></li>
+                <li><a href="About.html">Про Додаток</a></li>
+                <li><a href="Account.html">Акаунт</a></li>
+            </ul>
+        </header>
+        <main>
+            <form  action="" autocomplete="off" method="get" target="_blank">       
+                    <legend>
+                        Персональні дані:
+                    </legend>
+                
+                
+                    <label for="firstname">Ім'я:*</label> <br>
+                    <input type="text" id="firstname" name="firstname" required autofocus autocomplete="on"><br>
+                
+                    <label for="email">Email:</label> <br>
+                    <input type="email" id="email" name="email" required autocomplete="on" placeholder="myemail@example.com"><br>
+                
+                    <label for="q3">Стать</label><br>
+                    <select name="q3" id="q3">
+                        <option value="v1">жіноча</option>
+                        <option value="v2">чоловіча</option>
+                        <option value="v3">інша</option>
+                    </select><br>
+                
+                    <label for="date">Дата народження: </label><br>
+                    <input type="date" id="date" name="date">
+                    <br>
+                    <label for="phonenumber">Телефон: </label><br>
+				    <input type="tel" id="phonenumber" name="phonenumber">
+                    <br>
+                    <label for="password">Пароль: </label> <br>
+                    <input type="password" id="password" name="password" required autofocus autocomplete="on"><br>
+                
+                <button type="submit">Зареєструватися</button>
+                
+                </form>
+            </main>
+            <footer>
+                <p>
+                    WEB-design-lab1
+                </p>
+                <p>
+                    Zimenkov Dmytro FPM KV-94 2022
+                </p>
+            </footer>
+    </body>
+    
+</html>

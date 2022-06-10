@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>Справочник</title>
+		<link rel="icon" type="image/x-icon" href="../img/logo.png">
+        <link rel="stylesheet" href="../css/WebApp.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    </head>
+    <body class="back-img">
+		<header>
+            <ul class="nav">
+                <li><a href="Registration.html" >Реєстрація</a></li>
+                <li><a href="#" class="current">Телефонний довідник</a></li>
+                <li><a href="sign in.html">Увійти</a></li>
+                <li><a href="About.html">Про Додаток</a></li>
+                <li><a href="Account.html">Акаунт</a></li>
+            </ul>
+        </header>
+		<div class="top">
+			<div class="container">
+			   <div id="bar">
+				   <i class="fas fa-address-book"></i>
+				Address Book 
+			   </div>
+			</div> 
+		 </div>
+		 
+		 
+		 <div class="container add">
+			<div class="quickadd"> <button type="button" class="btn btn-secondary" id="QuickAdd"><div id="content"><i class="fas fa-user-plus" id="new"></i>Add new Contact</div></button><hr></div>
+
+		   
+		   <div class="quickaddForm" id="fform">
+		   <form>
+			 <h3> Please enter the details!</h3>
+			 
+			 
+			 <br/>
+			 
+					 <div class="row">
+					 <div class="col-md-3"><label for="fullname" id="unq" >Name</label>
+					 </div>
+					 <div class="col-md-5">
+					 <input type="text" id="fullname" class="formFields" placeholder="Dmytro Zimenkov" onkeyup="return fnccopytext()">
+					 </div>
+					 </div>
+
+					 <div class="row">
+					 <div class="col-md-3"><label for="phone" id="unq1">Phone</label>
+					 </div>
+					 <div class="col-md-5">
+					 <input type="text" id="phone" class="formFields" placeholder="+38 XXXXXXXXXX" onkeyup="return fnccopytext1()">
+					 </div>
+					 </div>
+					 
+					 <div class="row">
+					 <div class="col-3">
+					 <label for="address" id="unq2">Address</label>
+					 </div>
+					 <div class="col-5">
+					 <textarea id="address" name="subject" placeholder="Kovalskee street" style="height:100px" onkeyup="return fnccopytext2()"></textarea>
+					 </div>   
+					 </div> 
+		 
+					 <div class="row">
+					 <div class="col-md-3"><label for="city" id="unq3">City</label>
+					 </div>
+					 <div class="col-md-5">
+					 <input type="text" id="city" class="formFields" placeholder="Kiev" onkeyup="return fnccopytext3()">
+					 </div>
+					 </div>
+					 
+					 <div class="row">
+					 <div class="col-md-3"><label for="email" id="unq4">Email</label>
+					 </div>
+					 <div class="col-md-5">
+					 <input type="text" id="email" class="formFields" placeholder="Yourmail@gmail.com" onkeyup="return fnccopytext4()">
+					 </div>
+					 </div>
+					 
+					 <label id="cp"> </label>
+					 
+					 <br><br>
+					
+					 <button type="submit" class="btn btn-secondary" id="Add"> Add </button>
+					 <button type="submit" class="btn btn-secondary" id="Cancel"> Cancel </button>
+
+		   </form>
+		   </div>
+		 </div>
+			<div class="container">
+			 <div class="addbook">
+				</div>
+		 </div>
+	<footer>
+		<p>
+			WEB-design-lab1
+		</p>
+		<p>
+			Zimenkov Dmytro FPM KV-94 2022
+		</p>
+	</footer>
+    </body>
+	<script type="javascript" src="../js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="../js/func.js"></script>
+</html>
